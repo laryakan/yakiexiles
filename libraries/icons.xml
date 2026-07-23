@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<icons>
+  <icon name="briefing_yaki_portrait_m" texture="extensions\yakiexiles\assets\textures\ui\npc_briefing\yaki_portrait_m.tga" height="256" width="256" />
+  <icon name="briefing_yaki_portrait_f" texture="extensions\yakiexiles\assets\textures\ui\npc_briefing\yaki_portrait_f.tga" height="256" width="256" />
+</icons>

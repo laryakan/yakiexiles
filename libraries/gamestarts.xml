@@ -1,197 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<add sel="/gamestarts">
-      <gamestart id="yaki_exiles" name="Yaki Exiles" 
-      description="Kendai had a plan. You saw a death sentence. So you took your Kurokami, your credits, and the few allies you could still trust, then vanished into Getsu Fune with no way back. (Hard Start) Most factions view you with suspicion. Only the most open-minded will hear you out-and the Yaki will see you as an outsider." 
-      image="gamestart_terran2" group="6">
-      <info>
-      <!-- Wyl Yakan -->
-      <!-- Name, Race, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
-      <item name="{1021,8}"   value="Wyl Yakan" />
-      <item name="{1021,13}"  value="{20203,2801}" />
-      <item name="{1021,9}"   value="{1021,51}" />
-      <item />
-      <item name="{1021,1}"   value="{20005,1031}" />
-      <item />
-      <item name="{1021,2}"   value="{20101,87001}"/> 
-      <item name="{1021,3}"   value="10,000,000 {1001,101}" />
-      <item name="{1021,5}"   value="{1021,41}" />
-    </info>
-      <location galaxy="xu_ep2_universe_macro" sector="cluster_48_sector001_macro"/>
-      <player macro="character_yaki_customgamestart_male_macro" money="10000000">
-        <inventory>
-          <ware ware="inv_agidevice_02" amount="3"/>
-          <ware ware="inv_agidevice_03" amount="3"/>
-          <ware ware="inv_agidevice_01" amount="3"/>
-          <ware ware="inv_decryptionmodule" amount="3"/>
-          <ware ware="inv_fluxcapacitor" amount="3"/>
-          <ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
-          <ware ware="inv_programmablefieldarray" amount="3"/>
-          <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
-          <ware ware="bomb_player_limpet_emp_01_mk1"/>
-          <ware ware="software_scannerobjectmk3"/>
-          <ware ware="engine_gen_spacesuit_01_mk2"/>
-        </inventory>
-        <blueprints>
-          <ware ware="clothingmod_0001" />
-          <ware ware="clothingmod_0002" />
-          <ware ware="module_arg_conn_base_01"/>
-          <ware ware="ship_gen_xs_buildingdrone_01_a"/>
-          <ware ware="shield_arg_m_standard_02_mk1"/>
-          <ware ware="waypointmarker_01"/>
-          <ware ware="module_yak_hab_m_01"/>
-          <ware ware="module_arg_dock_m_02"/>
-          <ware ware="resourceprobe_01"/>
-          <ware ware="module_arg_stor_liquid_m_01"/>
-          <ware ware="weapon_gen_s_laser_01_mk1"/>
-          <ware ware="satellite_mk1"/>
-          <ware ware="module_gen_prod_water_01"/>
-          <ware ware="countermeasure_flares_01"/>
-          <ware ware="ship_gen_s_miningdrone_solid_01_a"/>
-          <ware ware="module_yak_hab_s_01"/>
-          <ware ware="ship_gen_s_miningdrone_liquid_01_a"/>
-          <ware ware="shield_arg_s_standard_01_mk1"/>
-          <ware ware="module_arg_stor_liquid_s_01"/>
-          <ware ware="ship_gen_s_fightingdrone_01_a"/>
-          <ware ware="ship_gen_xs_cargodrone_empty_01_a"/>
-          <ware ware="module_arg_stor_solid_m_01"/>
-          <ware ware="module_arg_stor_container_s_01"/>
-          <ware ware="ship_yak_s_fighter_01_a"/>
-          <ware ware="module_arg_stor_solid_s_01"/>
-          <ware ware="ship_gen_xs_repairdrone_01_a"/>
-          <ware ware="ship_gen_xs_lasertower_01_a"/>
-          <ware ware="module_yak_hab_l_01"/>
-          <ware ware="module_arg_pier_l_02"/>
-          <ware ware="module_arg_conn_cross_01"/>
-          <ware ware="module_arg_stor_container_m_01"/>
-          <ware ware="module_gen_prod_energycells_01"/>
-          <ware ware="ship_yak_m_corvette_01_a"/>
-          <ware ware="turret_arg_m_laser_02_mk1"/>
-          <ware ware="paintmod_0006"/>
-          <ware ware="paintmod_0048"/>
-          <ware ware="paintmod_0049"/>
-          <ware ware="paintmod_0050"/>
-          <ware ware="paintmod_0097"/>
-          <ware ware="paintmod_0098"/>
-          <ware ware="paintmod_0099"/>
-          <ware ware="paintmod_0100"/>
-        </blueprints>
-        <knownfactions>
-          <faction faction="terran"/>
-          <faction faction="yaki"/>
-          <faction faction="xenon"/>
-        </knownfactions>
-        <knownspace>
-          <space sector="cluster_48_sector001_macro"/>
-        </knownspace>
-        <theme paint="painttheme_player_08"/>
-        <ship macro="ship_yak_m_corvette_01_a_macro" name="Deserter">
-          <loadout>
-            <macros>
-              <engine macro="engine_par_m_travel_01_mk3_macro" path="../con_engine_01"/>
-              <weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_05"/>
-              <weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_04"/>
-              <weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_03"/>
-              <weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_02"/>
-              <weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_01"/>
-              <shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_r"/>
-              <shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_l"/>
-              <turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_l01"/>
-              <turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_r01"/>
-            </macros>
-            <ammunition>
-              <ammunition macro="countermeasure_flares_01_macro" exact="8"/>
-              <ammunition macro="eq_arg_satellite_02_macro" exact="5"/>
-              <ammunition macro="eq_arg_resourceprobe_01_macro" exact="10"/>
-              <ammunition macro="eq_arg_satellite_01_macro" exact="5"/>
-            </ammunition>
-            <software>
-              <software ware="software_dockmk2"/>
-              <software ware="software_flightassistmk1"/>
-              <software ware="software_scannerlongrangemk2"/>
-              <software ware="software_scannerobjectmk2"/>
-              <software ware="software_targetmk1"/>
-              <software ware="software_trademk1"/>
-            </software>
-            <virtualmacros>
-              <thruster macro="thruster_gen_m_combat_01_mk3_macro"/>
-            </virtualmacros>
-            <crew>
-              <crew role="marine" exact="0"/>
-              <crew role="service" exact="0"/>
-            </crew>
-          </loadout>
-          <people people="player_yaki_elite_military_crew" fillpercent="100"/>
-        </ship>
-      </player>
-      <custom>
-        <item value="player" state="standard" list="character_npc_player_yaki_customgamestart_female_macro
-                                                     character_npc_player_yaki_customgamestart_male_macro
-                                                     character_yaki_female_cau_base_01_macro
-                                                     character_yaki_female_afr_base_01_macro
-                                                     character_yaki_female_asi_base_01_macro
-                                                     character_yaki_male_cau_base_01_macro
-                                                     character_yaki_male_afr_base_01_macro
-                                                     character_yaki_male_asi_base_01_macro
-                                                     character_yaki_female_cau_civilian_01_macro
-                                                     character_yaki_female_afr_civilian_01_macro
-                                                     character_yaki_female_asi_civilian_01_macro
-                                                     character_yaki_female_cau_crew_01_macro
-                                                     character_yaki_female_afr_crew_01_macro
-                                                     character_yaki_female_asi_crew_01_macro
-                                                     character_yaki_female_cau_manager_01_macro
-                                                     character_yaki_female_afr_manager_01_macro
-                                                     character_yaki_female_asi_manager_01_macro
-                                                     character_yaki_female_cau_marine_01_macro
-                                                     character_yaki_female_afr_marine_01_macro
-                                                     character_yaki_female_asi_marine_01_macro
-                                                     character_yaki_female_cau_pilot_01_macro
-                                                     character_yaki_female_afr_pilot_01_macro
-                                                     character_yaki_female_asi_pilot_01_macro
-                                                     character_yaki_male_cau_civilian_01_macro
-                                                     character_yaki_male_afr_civilian_01_macro
-                                                     character_yaki_male_asi_civilian_01_macro
-                                                     character_yaki_male_cau_crew_01_macro
-                                                     character_yaki_male_afr_crew_01_macro
-                                                     character_yaki_male_asi_crew_01_macro
-                                                     character_yaki_male_cau_manager_01_macro
-                                                     character_yaki_male_afr_manager_01_macro
-                                                     character_yaki_male_asi_manager_01_macro
-                                                     character_yaki_male_cau_marine_01_macro
-                                                     character_yaki_male_afr_marine_01_macro
-                                                     character_yaki_male_asi_marine_01_macro
-                                                     character_yaki_male_cau_pilot_01_macro
-                                                     character_yaki_male_afr_pilot_01_macro
-                                                     character_yaki_male_asi_pilot_01_macro
-                                                     character_yaki_paranid_plot_scientist_macro
-                                                     character_yaki_male_plot_wingmate_macro
-                                                     character_yaki_male_plot_yaki_renegade_macro
-                                                     character_yaki_female_plot_yaki_leader_macro
-                                                     character_yaki_female_plot_yaki_civilian_macro"/>
-      </custom>
-      <universe>
-        <factions>
-          <relations>
-            <relation faction="trinity" otherfaction="player" relation="-0.0032"/>
-            <relation faction="yaki" otherfaction="player" relation="-0.0032"/>
-            <relation faction="hatikvah" otherfaction="player" relation="-0.0032"/>
-            <relation faction="scavenger" otherfaction="player" relation="0.0032"/>
-            <relation faction="antigone" otherfaction="player" relation="-0.0032"/>
-            <relation faction="player" otherfaction="fallensplit" relation="-0.01"/>
-            <relation faction="player" otherfaction="buccaneers" relation="-0.0032"/>
-            <relation faction="player" otherfaction="pioneers" relation="0.0032"/>
-            <relation faction="player" otherfaction="freesplit" relation="-0.01"/>
-            <relation faction="player" otherfaction="ministry" relation="-0.032"/>
-            <relation faction="player" otherfaction="alliance" relation="-0.0032"/>
-            <relation faction="player" otherfaction="teladi" relation="-0.01"/>
-            <relation faction="player" otherfaction="holyorder" relation="-0.01"/>
-            <relation faction="player" otherfaction="boron" relation="-0.0032"/>
-            <relation faction="player" otherfaction="argon" relation="-0.01"/>
-            <relation faction="player" otherfaction="paranid" relation="-0.01"/>
-          </relations>
-        </factions>
-      </universe>
-	
-      </gamestart>
+		<gamestart id="yaki_exiles" name="Yaki Exiles" description="Kendai had a plan. You saw a death sentence. So you took your Kurokami, your credits, and the few allies you could still trust, then vanished into Getsu Fune with no way back. (Hard Start) Most factions view you with suspicion. Only the most open-minded will hear you out-and the Yaki will see you as an outsider." image="gamestart_terran2" group="6">
+			<info>
+				<!-- Name, Race, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
+				<item name="@name"/>
+				<item name="@player"/>
+				<item name="{1021,13}" value="{20203,2801}"/>
+				<item name="{1021,9}" value="{1021,51}"/>
+				<item/>
+				<item name="{1021,1}" value="{20005,1031}"/>
+				<item/>
+				<item name="{1021,2}" value="{20101,87001}"/>
+				<item name="{1021,3}" value="10,000,000 {1001,101}"/>
+				<item name="{1021,5}" value="{1021,41}"/>
+			</info>
+			<location galaxy="xu_ep2_universe_macro" sector="cluster_48_sector001_macro"/>
+      <type name="{1021,94}" description="{1021,95}" />
+			<player macro="character_npc_player_yaki_customgamestart_female_macro" female="true" money="10000000">
+				<inventory>
+					<ware ware="inv_agidevice_02" amount="3"/>
+					<ware ware="inv_agidevice_03" amount="3"/>
+					<ware ware="inv_agidevice_01" amount="3"/>
+					<ware ware="inv_decryptionmodule" amount="3"/>
+					<ware ware="inv_fluxcapacitor" amount="3"/>
+					<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
+					<ware ware="inv_programmablefieldarray" amount="3"/>
+					<ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
+					<ware ware="bomb_player_limpet_emp_01_mk1"/>
+					<ware ware="software_scannerobjectmk3"/>
+					<ware ware="engine_gen_spacesuit_01_mk2"/>
+				</inventory>
+				<blueprints>
+					<ware ware="clothingmod_0001"/>
+					<ware ware="clothingmod_0002"/>
+					<ware ware="module_arg_conn_base_01"/>
+					<ware ware="ship_gen_xs_buildingdrone_01_a"/>
+					<ware ware="shield_arg_m_standard_02_mk1"/>
+					<ware ware="waypointmarker_01"/>
+					<ware ware="module_yak_hab_m_01"/>
+					<ware ware="module_arg_dock_m_02"/>
+					<ware ware="resourceprobe_01"/>
+					<ware ware="module_arg_stor_liquid_m_01"/>
+					<ware ware="weapon_gen_s_laser_01_mk1"/>
+					<ware ware="satellite_mk1"/>
+					<ware ware="module_gen_prod_water_01"/>
+					<ware ware="countermeasure_flares_01"/>
+					<ware ware="ship_gen_s_miningdrone_solid_01_a"/>
+					<ware ware="module_yak_hab_s_01"/>
+					<ware ware="ship_gen_s_miningdrone_liquid_01_a"/>
+					<ware ware="shield_arg_s_standard_01_mk1"/>
+					<ware ware="module_arg_stor_liquid_s_01"/>
+					<ware ware="ship_gen_s_fightingdrone_01_a"/>
+					<ware ware="ship_gen_xs_cargodrone_empty_01_a"/>
+					<ware ware="module_arg_stor_solid_m_01"/>
+					<ware ware="module_arg_stor_container_s_01"/>
+					<ware ware="ship_yak_s_fighter_01_a"/>
+					<ware ware="module_arg_stor_solid_s_01"/>
+					<ware ware="ship_gen_xs_repairdrone_01_a"/>
+					<ware ware="ship_gen_xs_lasertower_01_a"/>
+					<ware ware="module_yak_hab_l_01"/>
+					<ware ware="module_arg_pier_l_02"/>
+					<ware ware="module_arg_conn_cross_01"/>
+					<ware ware="module_arg_stor_container_m_01"/>
+					<ware ware="module_gen_prod_energycells_01"/>
+					<ware ware="ship_yak_m_corvette_01_a"/>
+					<ware ware="turret_arg_m_laser_02_mk1"/>
+					<ware ware="paintmod_0006"/>
+					<ware ware="paintmod_0048"/>
+					<ware ware="paintmod_0049"/>
+					<ware ware="paintmod_0050"/>
+					<ware ware="paintmod_0097"/>
+					<ware ware="paintmod_0098"/>
+					<ware ware="paintmod_0099"/>
+					<ware ware="paintmod_0100"/>
+				</blueprints>
+				<knownfactions>
+					<faction faction="terran"/>
+					<faction faction="yaki"/>
+					<faction faction="xenon"/>
+				</knownfactions>
+				<knownspace>
+					<space sector="cluster_48_sector001_macro"/>
+				</knownspace>
+				<theme paint="painttheme_player_08"/>
+				<ship macro="ship_yak_m_corvette_01_a_macro" name="Deserter">
+					<loadout>
+						<macros>
+							<engine macro="engine_par_m_travel_01_mk3_macro" path="../con_engine_01"/>
+							<weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_05"/>
+							<weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_04"/>
+							<weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_03"/>
+							<weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_02"/>
+							<weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_01"/>
+							<shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_r"/>
+							<shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_l"/>
+							<turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_l01"/>
+							<turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_r01"/>
+						</macros>
+						<ammunition>
+							<ammunition macro="countermeasure_flares_01_macro" exact="8"/>
+							<ammunition macro="eq_arg_satellite_02_macro" exact="5"/>
+							<ammunition macro="eq_arg_resourceprobe_01_macro" exact="10"/>
+							<ammunition macro="eq_arg_satellite_01_macro" exact="5"/>
+						</ammunition>
+						<software>
+							<software ware="software_dockmk2"/>
+							<software ware="software_flightassistmk1"/>
+							<software ware="software_scannerlongrangemk2"/>
+							<software ware="software_scannerobjectmk2"/>
+							<software ware="software_targetmk1"/>
+							<software ware="software_trademk1"/>
+						</software>
+						<virtualmacros>
+							<thruster macro="thruster_gen_m_combat_01_mk3_macro"/>
+						</virtualmacros>
+						<crew>
+							<crew role="marine" exact="8"/>
+							<crew role="service" exact="0"/>
+						</crew>
+					</loadout>
+					<people people="player_yaki_elite_military_crew" fillpercent="100"/>
+				</ship>
+			</player>
+			<custom>
+				<item value="player" state="standard" list="character_npc_player_yaki_customgamestart_female_macro
+																					character_npc_player_yaki_customgamestart_male_macro" />
+          <!-- NO FACE YAKI MACROS:
+            character_yaki_female_cau_base_01_macro
+            character_yaki_female_afr_base_01_macro
+            character_yaki_female_asi_base_01_macro
+            character_yaki_male_cau_base_01_macro
+            character_yaki_male_afr_base_01_macro
+            character_yaki_male_asi_base_01_macro
+            character_yaki_male_plot_wingmate_macro
+            character_yaki_male_plot_yaki_renegade_macro
+            character_yaki_female_plot_yaki_leader_macro
+            character_yaki_female_plot_yaki_civilian_macro -->
+        <item value="playerfemale" state="standard" />
+        <item value="playername" state="standard" />
+			</custom>
+			<universe>
+				<factions>
+					<relations>
+						<relation faction="player" otherfaction="trinity" relation="-0.0032"/>
+						<relation faction="player" otherfaction="yaki" relation="-0.0032"/>
+						<relation faction="player" otherfaction="hatikvah" relation="-0.0032"/>
+						<relation faction="player" otherfaction="scavenger" relation="0.0032"/>
+						<relation faction="player" otherfaction="antigone" relation="-0.0032"/>
+						<relation faction="player" otherfaction="fallensplit" relation="-0.01"/>
+						<relation faction="player" otherfaction="buccaneers" relation="-0.0032"/>
+						<relation faction="player" otherfaction="pioneers" relation="0.0032"/>
+						<relation faction="player" otherfaction="freesplit" relation="-0.01"/>
+						<relation faction="player" otherfaction="ministry" relation="-0.032"/>
+						<relation faction="player" otherfaction="alliance" relation="-0.0032"/>
+						<relation faction="player" otherfaction="teladi" relation="-0.01"/>
+						<relation faction="player" otherfaction="holyorder" relation="-0.01"/>
+						<relation faction="player" otherfaction="boron" relation="-0.0032"/>
+						<relation faction="player" otherfaction="argon" relation="-0.01"/>
+						<relation faction="player" otherfaction="paranid" relation="-0.01"/>
+					</relations>
+				</factions>
+			</universe>
+		</gamestart>
 	</add>
 </diff>
