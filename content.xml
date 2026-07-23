@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="yakiexileid"
+         name="Yaki Exiles"
+         description="Add a new gamestart as an Exiled Yaki"
+         author="Laryakan"
+         version="100"
+         date="2026-07-23"
+         sync="false"
+         lastupdate="1784483394">
+         <dependency id="ego_dlc_terran" name="X4: Cradle of Humanity" optional="false" />
+</content>
