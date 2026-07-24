@@ -1,4 +1,4 @@
-# yakiexiles
+# Yaki Exiles
 X4: Foundations mod to start as a Yaki leading an exiled crew.
 
 This add a new gamestart as a Yaki, nothing too fancy. You flew your faction with you crew and you Kurokami, heads up to Getsu Fune.
@@ -20,7 +20,7 @@ then vanished into Getsu Fune with no way back."
 Most Factions will have -5 to -10 reputation towards you. Exception the most open minded, and exiled like you (Segaris Pionners).
 Only the most open-minded will hear you out-and the Yaki will see you as an outsider (no story plot completed, it's a fresh start).
 
-Detailed reputation :
+## Detailed reputation :
 - [5] Segaris : Your only allies, exiled by the Terrans long ago, but still submitted to them
 - [5] Quettanauts : Some sentient androids, you didn't met them yet, but they already know you, maybe they will be kind (?)
 - [0] Neutral because story plot :
@@ -62,6 +62,11 @@ Detailed reputation :
 You are free to use, modify and redistribute any code or assets of mine which is not directly extracted from the game as soon as you mention the above Copyright.
 A link to my github is provided below. A little mention is all I ask.
 
+--- THIS MOD ---
 - github : https://github.com/laryakan/yakiexiles
 - nexus : https://www.nexusmods.com/x4foundations/mods/<incoming>
-- nexus user : https://next.nexusmods.com/profile/Laryakan
+- steam : https://steamcommunity.com/sharedfiles/filedetails/?id=3770977669 
+
+--- OTHER MODS ---
+- nexus user mods : https://www.nexusmods.com/games/x4foundations/mods?author=laryakan
+- steam user mods : https://steamcommunity.com/id/laryakan/myworkshopfiles/?appid=392160
