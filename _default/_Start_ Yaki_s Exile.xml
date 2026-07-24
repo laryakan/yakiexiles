@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gamestarts>
   <gamestart id="custom_creative" name="[Start] Yaki's Exile">
-    <location galaxy="" sector="cluster_48_sector001_macro"/>
+    <location galaxy="" sector="cluster_48_sector001_macro">
+      <position x="173277.156" z="180584.766"/>
+      <player>
+        <position x="0" z="0"/>
+      </player>
+    </location>
     <player macro="character_yaki_customgamestart_male_macro" name="Wyl'yakan" money="10000000">
       <inventory>
         <ware ware="inv_agidevice_02" amount="3"/>
@@ -64,8 +69,14 @@
         <faction faction="xenon"/>
       </knownfactions>
       <knownspace>
+        <space sector="cluster_112_sector001_macro"/>
         <space sector="cluster_48_sector001_macro"/>
+        <space sector="cluster_112_sector002_macro"/>
       </knownspace>
+      <knownobjects>
+        <object sector="cluster_112_sector001_macro" class="station"/>
+        <object sector="cluster_112_sector002_macro" class="station"/>
+      </knownobjects>
       <theme paint="painttheme_player_08"/>
       <ship macro="ship_yak_m_corvette_01_a_macro" name="Deserter">
         <loadout>

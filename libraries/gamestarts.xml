@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<add sel="/gamestarts">
-		<gamestart id="yaki_exiles" name="Yaki Exiles" description="Kendai had a plan. You saw a death sentence. So you took your Kurokami, your credits, and the few allies you could still trust, then vanished into Getsu Fune with no way back. (Hard Start) Most factions view you with suspicion. Only the most open-minded will hear you out-and the Yaki will see you as an outsider." image="gamestart_custom_01" group="6">
+		<gamestart id="yaki_exiles" name="Yaki Exiles" description="Kendai had a plan. You saw a death sentence. So you took your Kurokami, your credits, your knowing of Xenon, and the few allies you could still trust, then vanished into Getsu Fune with no way back. (Hard Start) Most factions view you with suspicion, Terrans will shoot you on sight. Only the most open-minded will hear you out-and the Yaki will see you as an outsider." image="gamestart_custom_01" group="6">
 			<extension id="ego_dlc_terran">
 				<source type="steam" value="1288460" />
 				<source type="gog" value="{1021,1091}" />
@@ -16,13 +16,18 @@
 				<item name="{1021,1}" value="{20005,1031}"/>
 				<item/>
 				<item name="{1021,2}" value="{20101,87001}"/>
-				<item name="{1021,3}" value="10,000,000 {1001,101}"/>
+				<item name="{1021,3}" value="1,000,000 {1001,101}"/>
 				<item name="{1021,5}" value="{1021,41}"/>
 			</info>
-			<location galaxy="xu_ep2_universe_macro" sector="cluster_48_sector001_macro"/>
+			<location galaxy="xu_ep2_universe_macro" sector="cluster_48_sector001_macro">
+				<position x="173277.156" z="180584.766"/>
+				<player>
+					<position x="0" z="0"/>
+				</player>
+			</location>
       		<type name="{1021,94}" description="{1021,95}" />
-			<player macro="character_yaki_customgamestart_female_macro" female="true" money="10000000" name="Eliz Organa" >
-				<ship macro="ship_yak_m_corvette_01_a_macro" name="Deserter">
+			<player macro="character_yaki_customgamestart_female_macro" female="true" money="1000000" name="Eliz Organa" >
+				<ship macro="ship_yak_m_corvette_01_a_macro" name="[YAK] Exile">
 					<loadout>
 						<macros>
 							<engine macro="engine_par_m_travel_01_mk3_macro" path="../con_engine_01"/>
@@ -125,12 +130,19 @@
 					<faction faction="xenon"/>
 				</knownfactions>
 				<knownspace>
+					<space sector="cluster_112_sector001_macro"/>
 					<space sector="cluster_48_sector001_macro"/>
+					<space sector="cluster_112_sector002_macro"/>
 				</knownspace>
+				<knownobjects>
+					<object sector="cluster_112_sector001_macro" class="station"/>
+					<object sector="cluster_112_sector002_macro" class="station"/>
+				</knownobjects>
 				<research>
 					<ware ware="research_radioreceiver" />
 					<ware ware="research_sensorbooster" />
 					<ware ware="research_tradeinterface" />
+					<ware ware="research_equipment_xenon"/>
 				</research>
 				<encyclopedia>
 					<entry type="warebasket" ref="research_gamestart_common"/>
