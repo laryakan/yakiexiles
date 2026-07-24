@@ -120,22 +120,23 @@
     <universe>
       <factions>
         <relations>
-          <relation faction="trinity" otherfaction="player" relation="-0.0032"/>
+          <relation faction="paranid" otherfaction="player" relation="-0.01"/>
+          <relation faction="split" otherfaction="player" relation="-0.1"/>
+          <relation faction="terran" otherfaction="player" relation="-0.1"/>
+          <relation faction="pioneers" otherfaction="player" relation="0.0032"/>
+          <relation faction="freesplit" otherfaction="player" relation="-0.01"/>
+          <relation faction="boron" otherfaction="player" relation="-0.0032"/>
+          <relation faction="holyorder" otherfaction="player" relation="-0.01"/>
+          <relation faction="ministry" otherfaction="player" relation="-0.032"/>
+          <relation faction="buccaneers" otherfaction="player" relation="-0.0032"/>
+          <relation faction="teladi" otherfaction="player" relation="-0.01"/>
+          <relation faction="kaori" otherfaction="player" relation="0.0032"/>
+          <relation faction="argon" otherfaction="player" relation="-0.01"/>
+          <relation faction="scavenger" otherfaction="player" relation="-0.0032"/>
           <relation faction="yaki" otherfaction="player" relation="-0.0032"/>
-          <relation faction="hatikvah" otherfaction="player" relation="-0.0032"/>
-          <relation faction="scavenger" otherfaction="player" relation="0.0032"/>
-          <relation faction="antigone" otherfaction="player" relation="-0.0032"/>
+          <relation faction="antigone" otherfaction="player" relation="-0.01"/>
           <relation faction="player" otherfaction="fallensplit" relation="-0.01"/>
-          <relation faction="player" otherfaction="buccaneers" relation="-0.0032"/>
-          <relation faction="player" otherfaction="pioneers" relation="0.0032"/>
-          <relation faction="player" otherfaction="freesplit" relation="-0.01"/>
-          <relation faction="player" otherfaction="ministry" relation="-0.032"/>
-          <relation faction="player" otherfaction="alliance" relation="-0.0032"/>
-          <relation faction="player" otherfaction="teladi" relation="-0.01"/>
-          <relation faction="player" otherfaction="holyorder" relation="-0.01"/>
-          <relation faction="player" otherfaction="boron" relation="-0.0032"/>
-          <relation faction="player" otherfaction="argon" relation="-0.01"/>
-          <relation faction="player" otherfaction="paranid" relation="-0.01"/>
+          <relation faction="player" otherfaction="hatikvah" relation="-0.01"/>
         </relations>
       </factions>
     </universe>

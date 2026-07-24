@@ -19,6 +19,7 @@
 				<item name="{1021,3}" value="1,000,000 {1001,101}"/>
 				<item name="{1021,5}" value="{1021,41}"/>
 			</info>
+			<!-- Hidden in Getsu Fune -->
 			<location galaxy="xu_ep2_universe_macro" sector="cluster_48_sector001_macro">
 				<position x="173277.156" z="180584.766"/>
 				<player>
@@ -66,13 +67,15 @@
 					<people people="player_yaki_elite_military_crew" fillpercent="100"/>
 				</ship>
 				<inventory>
+					<!-- Tools of every Yaki... but not really legal in anti-AI space -->
 					<ware ware="inv_agidevice_02" amount="3"/>
 					<ware ware="inv_agidevice_03" amount="3"/>
 					<ware ware="inv_agidevice_01" amount="3"/>
 					<ware ware="inv_decryptionmodule" amount="3"/>
 					<ware ware="inv_fluxcapacitor" amount="3"/>
-					<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
 					<ware ware="inv_programmablefieldarray" amount="3"/>
+					<!-- Spacesuit equipment -->
+					<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
 					<ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
 					<ware ware="software_scannerobjectmk3"/>
 					<ware ware="engine_gen_spacesuit_01_mk2"/>
@@ -85,7 +88,6 @@
 					<ware ware="ship_gen_xs_buildingdrone_01_a"/>
 					<ware ware="shield_arg_m_standard_02_mk1"/>
 					<ware ware="waypointmarker_01"/>
-					<ware ware="module_yak_hab_m_01"/>
 					<ware ware="module_arg_dock_m_02"/>
 					<ware ware="resourceprobe_01"/>
 					<ware ware="module_arg_stor_liquid_m_01"/>
@@ -94,7 +96,6 @@
 					<ware ware="module_gen_prod_water_01"/>
 					<ware ware="countermeasure_flares_01"/>
 					<ware ware="ship_gen_s_miningdrone_solid_01_a"/>
-					<ware ware="module_yak_hab_s_01"/>
 					<ware ware="ship_gen_s_miningdrone_liquid_01_a"/>
 					<ware ware="shield_arg_s_standard_01_mk1"/>
 					<ware ware="module_arg_stor_liquid_s_01"/>
@@ -106,13 +107,13 @@
 					<ware ware="module_arg_stor_solid_s_01"/>
 					<ware ware="ship_gen_xs_repairdrone_01_a"/>
 					<ware ware="ship_gen_xs_lasertower_01_a"/>
-					<ware ware="module_yak_hab_l_01"/>
 					<ware ware="module_arg_pier_l_02"/>
 					<ware ware="module_arg_conn_cross_01"/>
 					<ware ware="module_arg_stor_container_m_01"/>
 					<ware ware="module_gen_prod_energycells_01"/>
 					<ware ware="ship_yak_m_corvette_01_a"/>
 					<ware ware="turret_arg_m_laser_02_mk1"/>
+					<!-- Default -->
 					<ware ware="clothingmod_0001"/>
 					<ware ware="clothingmod_0002"/>
 					<ware ware="paintmod_0006"/>
@@ -123,6 +124,10 @@
 					<ware ware="paintmod_0098"/>
 					<ware ware="paintmod_0099"/>
 					<ware ware="paintmod_0100"/>
+					<!-- From the mod Yaki Habitation Module by iFlisk, will only be available if the mod is installed -->
+					<ware ware="module_yak_hab_s_01"/>
+					<ware ware="module_yak_hab_m_01"/>
+					<ware ware="module_yak_hab_l_01"/>
 				</blueprints>
 				<knownfactions>
 					<faction faction="terran"/>
@@ -142,6 +147,7 @@
 					<ware ware="research_radioreceiver" />
 					<ware ware="research_sensorbooster" />
 					<ware ware="research_tradeinterface" />
+					<!-- Your knowledge of Xenon -->
 					<ware ware="research_equipment_xenon"/>
 				</research>
 				<encyclopedia>
@@ -151,7 +157,7 @@
 			</player>
 			<custom>
 				<item value="player" state="standard" list="character_yaki_customgamestart_female_macro character_yaki_customgamestart_male_macro" />
-				<!-- NO FACE YAKI MACROS:
+				<!-- NO FACE YAKI MACROS: if I figured out how to add them
 					character_yaki_female_cau_base_01_macro
 					character_yaki_female_afr_base_01_macro
 					character_yaki_female_asi_base_01_macro
@@ -168,22 +174,51 @@
 			<universe>
 				<factions>
 					<relations>
-						<relation faction="player" otherfaction="trinity" relation="-0.0032"/>
-						<relation faction="player" otherfaction="yaki" relation="-0.0032"/>
-						<relation faction="player" otherfaction="hatikvah" relation="-0.0032"/>
-						<relation faction="player" otherfaction="scavenger" relation="0.0032"/>
-						<relation faction="player" otherfaction="antigone" relation="-0.0032"/>
+						<!-- Your former motherland, now they see you like what you are: an exile they don't want to know -->
+						<relation faction="yaki" otherfaction="player" relation="-0.0032"/>
+
+						<!-- They are already persecuted, and are willing to get any help they could -->
+						<relation faction="scavenger" otherfaction="player" relation="-0.0032"/>
+
+						<!-- Some fellow pirates like the Scale Plate Pact, they will not attack you on sight, but maybe rob you -->
+						<relation faction="buccaneers" otherfaction="player" relation="-0.0032"/>
+
+						<!-- They see the good in anybody, but don't trust anyone too quickly -->
+						<relation faction="boron" otherfaction="player" relation="-0.0032"/>
+
+						<!-- They look at you with suspicion, trying not to be some dumb racists -->
+						<relation faction="paranid" otherfaction="player" relation="-0.01"/>
+						<relation faction="freesplit" otherfaction="player" relation="-0.01"/>
+						<relation faction="holyorder" otherfaction="player" relation="-0.01"/>
+						<relation faction="teladi" otherfaction="player" relation="-0.01"/>
+						<relation faction="argon" otherfaction="player" relation="-0.01"/>
+						<relation faction="antigone" otherfaction="player" relation="-0.01"/>
 						<relation faction="player" otherfaction="fallensplit" relation="-0.01"/>
-						<relation faction="player" otherfaction="buccaneers" relation="-0.0032"/>
-						<relation faction="player" otherfaction="pioneers" relation="0.0032"/>
-						<relation faction="player" otherfaction="freesplit" relation="-0.01"/>
-						<relation faction="player" otherfaction="ministry" relation="-0.032"/>
-						<relation faction="player" otherfaction="alliance" relation="-0.0032"/>
-						<relation faction="player" otherfaction="teladi" relation="-0.01"/>
-						<relation faction="player" otherfaction="holyorder" relation="-0.01"/>
-						<relation faction="player" otherfaction="boron" relation="-0.0032"/>
-						<relation faction="player" otherfaction="argon" relation="-0.01"/>
-						<relation faction="player" otherfaction="paranid" relation="-0.01"/>
+						<relation faction="player" otherfaction="hatikvah" relation="-0.01"/>
+
+						<!-- They simply don't trust anyone worth trading with -->
+						<relation faction="ministry" otherfaction="player" relation="-0.032"/>
+
+						<!-- They don't like anyone, especially some wanna be cyborg pirate -->
+						<relation faction="split" otherfaction="player" relation="-0.1"/>
+
+						<!-- Your ennemy, unless you convince them otherwise -->
+						<relation faction="terran" otherfaction="player" relation="-0.1"/>
+
+						<!-- Your only "allies", exiled like you by the Terrans -->
+						<relation faction="pioneers" otherfaction="player" relation="0.0032"/>
+
+						<!-- Some sentient androides, maybe they will understand you -->
+						<relation faction="kaori" otherfaction="player" relation="0.0032"/>
+
+						<!-- Other factions will have default relation, including :
+							Alliance of the World, they aim to unite, so they are neutral
+							Court of Curbs, since they will only exists if you help them to
+							Realm of the Trinity, since it's also a story plot
+							Scale Plate, already "passive" toward anyone, but ready to rob them
+							Vigor Syndicate, they don't care who you are if they can scam you some credits
+							Xenon and Kha'ak, of course, hostile...
+						 -->
 					</relations>
 				</factions>
 			</universe>
