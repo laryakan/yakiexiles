@@ -3,10 +3,10 @@
          name="Yaki Exiles"
          description="Add a new gamestart as an Exiled Yaki"
          author="Laryakan"
-         version="100"
-         date="2026-07-24"
+         version="101"
+         date="2026-07-25"
          sync="false"
-         lastupdate="1784924013">
+         lastupdate="1785013924">
 	<dependency id="ego_dlc_terran"
 	            name="Cradle of Humanity"
 	            optional="false"/>

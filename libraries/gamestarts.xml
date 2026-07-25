@@ -32,11 +32,11 @@
 					<loadout>
 						<macros>
 							<engine macro="engine_par_m_travel_01_mk3_macro" path="../con_engine_01"/>
-							<weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_05"/>
-							<weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_04"/>
-							<weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_03"/>
-							<weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_02"/>
-							<weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_01"/>
+							<weapon macro="weapon_ter_m_laser_02_mk1_macro" path="../con_primaryweapon_05"/>
+							<weapon macro="weapon_ter_m_laser_01_mk2_macro" path="../con_primaryweapon_04"/>
+							<weapon macro="weapon_ter_m_laser_02_mk1_macro" path="../con_primaryweapon_03"/>
+							<weapon macro="weapon_ter_m_laser_01_mk2_macro" path="../con_primaryweapon_02"/>
+							<weapon macro="weapon_ter_m_laser_02_mk1_macro" path="../con_primaryweapon_01"/>
 							<shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_r"/>
 							<shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_l"/>
 							<turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_l01"/>

@@ -69,9 +69,9 @@
         <faction faction="xenon"/>
       </knownfactions>
       <knownspace>
-        <space sector="cluster_112_sector001_macro"/>
-        <space sector="cluster_48_sector001_macro"/>
         <space sector="cluster_112_sector002_macro"/>
+        <space sector="cluster_48_sector001_macro"/>
+        <space sector="cluster_112_sector001_macro"/>
       </knownspace>
       <knownobjects>
         <object sector="cluster_112_sector001_macro" class="station"/>
@@ -82,21 +82,21 @@
         <loadout>
           <macros>
             <engine macro="engine_par_m_travel_01_mk3_macro" path="../con_engine_01"/>
-            <weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_05"/>
-            <weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_04"/>
-            <weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_03"/>
-            <weapon macro="weapon_spl_m_shotgun_01_mk2_macro" path="../con_primaryweapon_02"/>
-            <weapon macro="weapon_spl_m_railgun_01_mk2_macro" path="../con_primaryweapon_01"/>
+            <weapon macro="weapon_ter_m_laser_02_mk1_macro" path="../con_primaryweapon_05"/>
+            <weapon macro="weapon_ter_m_laser_01_mk2_macro" path="../con_primaryweapon_04"/>
+            <weapon macro="weapon_ter_m_laser_02_mk1_macro" path="../con_primaryweapon_03"/>
+            <weapon macro="weapon_ter_m_laser_01_mk2_macro" path="../con_primaryweapon_02"/>
+            <weapon macro="weapon_ter_m_laser_02_mk1_macro" path="../con_primaryweapon_01"/>
             <shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_r"/>
             <shield macro="shield_ter_m_virtual_01_mk3_macro" path="../con_shield_front_l"/>
             <turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_l01"/>
             <turret macro="turret_ter_m_beam_01_mk1_macro" path="../con_turret_r01"/>
           </macros>
           <ammunition>
-            <ammunition macro="countermeasure_flares_01_macro" exact="8"/>
-            <ammunition macro="eq_arg_satellite_02_macro" exact="5"/>
             <ammunition macro="eq_arg_resourceprobe_01_macro" exact="10"/>
             <ammunition macro="eq_arg_satellite_01_macro" exact="5"/>
+            <ammunition macro="eq_arg_satellite_02_macro" exact="5"/>
+            <ammunition macro="countermeasure_flares_01_macro" exact="8"/>
           </ammunition>
           <software>
             <software ware="software_dockmk2"/>
