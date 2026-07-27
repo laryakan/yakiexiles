@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<add sel="/gamestarts/groups">
+		<group group="15" name="{1021,62} Bonus" />
+	</add>
 	<add sel="/gamestarts">
-		<gamestart id="yaki_exiles" name="Yaki Exiles" description="Kendai had a plan. You saw a death sentence. So you took your Kurokami, your credits, your knowing of Xenon, and the few allies you could still trust, then vanished into Getsu Fune with no way back. (Hard Start) Most factions view you with suspicion, Terrans will shoot you on sight. Only the most open-minded will hear you out-and the Yaki will see you as an outsider." image="gamestart_custom_01" group="6">
+		<gamestart id="yaki_exiles" name="Yaki Exiles" description="Kendai had a plan. You saw a death sentence. So you took your Kurokami, your credits, your knowing of Xenon, and the few allies you could still trust, then vanished into Getsu Fune with no way back. (Hard Start) Most factions view you with suspicion, Terrans will shoot you on sight. Only the most open-minded will hear you out-and the Yaki will see you as an outsider." image="gamestart_custom_01" group="15">
 			<extension id="ego_dlc_terran">
 				<source type="steam" value="1288460" />
 				<source type="gog" value="{1021,1091}" />
